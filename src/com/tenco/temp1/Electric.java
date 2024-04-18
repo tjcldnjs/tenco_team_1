@@ -46,6 +46,7 @@ public class Electric {
 		hp = hp -power;
 	}	
 	public void showInfo() {
+		System.out.println("=== 상태창 ===");
 		System.out.println("이름 : " + this.name);
 		System.out.println("공격력 : " + this.power);
 		System.out.println("남은 hp : " + this.hp);
