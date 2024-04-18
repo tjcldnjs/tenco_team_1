@@ -16,6 +16,7 @@ public class Battle {
 		fire.attakElectric(electric);
 		fire.attakElectric(electric);
 		fire.attakElectric(electric);
+		fire.attakElectric(electric);
 		
 		fire.showInfo();
 		

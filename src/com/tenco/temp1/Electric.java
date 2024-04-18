@@ -16,10 +16,10 @@ public class Electric {
 	// Fire 공격하기
 	
 	public void attakFire(Fire f) {
-		System.out.println(this.name + " 이 " + f.name + " 를 데미지 " + this.power + " 만큼 공격합니다.");
+		System.out.println(this.name + " 가 " + f.name + " 를 데미지 " + this.power + " 만큼 공격합니다.");
 		f.beAttackted(this.power);
 		if(mp <= 0) {
-			System.out.println(" MP 가 없습니다.");
+			System.out.println(this.name + "의 MP 가 없습니다.");
 			return;
 		}
 		mp -= 5;
@@ -28,10 +28,10 @@ public class Electric {
 	// Water 공격하기
 	
 	public void attakWater(Water w) {
-		System.out.println(this.name + " 이 " + w.name + " 를 데미지 " + this.power + " 만큼 공격합니다.");
+		System.out.println(this.name + " 가 " + w.name + " 를 데미지 " + this.power + " 만큼 공격합니다.");
 		w.beAttackted(this.power);
 		if(mp <= 0) {
-			System.out.println(" MP 가 없습니다.");
+			System.out.println(this.name + "의 MP 가 없습니다.");
 			return;
 		}
 		mp -= 5;
