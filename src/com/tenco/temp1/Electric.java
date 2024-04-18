@@ -40,7 +40,7 @@ public class Electric {
 	// 내가 공격받기
 	public void beAttackted(int power) {
 		if (hp <= 0) {
-			System.out.println(" 죽었습니다. ");
+			System.out.println("상대방이 죽었습니다. ");
 			return;
 		}
 		hp = hp -power;
